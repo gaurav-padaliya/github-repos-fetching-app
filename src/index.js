@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import Single from "./component/repoDescription";
+import Single from "./component/RepoDescription";
 import { BrowserRouter, Routes, Route, Redirect } from "react-router-dom";
 import store from "./redux/store";
 import { Provider } from "react-redux";

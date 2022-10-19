@@ -4,13 +4,13 @@ import "../style/repoDescription.css";
 import { useSelector, useDispatch } from "react-redux";
 // import { setRepo } from "../redux/reducer";
 
-const repoDescription = () => {
+const RepoDescription = () => {
   const { id } = useParams();
   const reposData = useSelector((st) => st.git.reposData);
   const repoData = reposData.filter((el) => el.id == id);
+  const navigate = useNavigate();
   console.log(id);
   console.log(repoData);
-  const navigate = useNavigate();
   const handleback = () => {
     navigate("/");
   };
@@ -42,4 +42,4 @@ const repoDescription = () => {
   );
 };
 
-export default repoDescription;
+export default RepoDescription;
