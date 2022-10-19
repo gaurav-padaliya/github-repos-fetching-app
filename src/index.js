@@ -29,6 +29,15 @@ root.render(
             </Provider>
           }
         />
+        <Route
+          path="*"
+          exact
+          element={
+            <Provider store={store}>
+              <App />
+            </Provider>
+          }
+        />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
