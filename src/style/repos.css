@@ -1,0 +1,11 @@
+.reposContainer{
+    width: 75%;
+    margin: auto;
+    /* background-color: rgba(122, 120, 120, 0.511); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+}
