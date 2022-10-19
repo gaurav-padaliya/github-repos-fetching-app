@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const repo = ({ repoData }) => {
   return (
     <Link
-      to={`/${repoData.id}`}
+      to={`/user/${repoData.id}`}
       // onClick={(event) => event.preventDefault()}
       style={{
         textDecoration: "none",

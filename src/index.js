@@ -22,7 +22,7 @@ root.render(
         />
 
         <Route
-          path="/:id"
+          path="/user/:id"
           element={
             <Provider store={store}>
               <Single />
